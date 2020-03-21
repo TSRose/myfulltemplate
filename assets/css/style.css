@@ -1,1 +1,131 @@
 https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Roboto:100,200,300,400,500,600,700,800,900');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roberto', sans-serif;
+    colour: #222;
+}
+/*----Navbar ----*/
+.navbar {
+    padding: .8em;
+}
+.navbar-nav {
+    padding-right: 20px;
+}
+.nav-link {
+    font-size: 1.1em !important;
+}
+
+/*---Carousel---*/
+.carousel-inner img {
+   height: 100%;
+    width: 100%;
+}
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.padding {
+    padding-bottom: 2rem;
+}
+
+/*---Welcome---*/
+.welcome {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    text-align: center;
+}
+.welcome hr {
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+
+.fa-route, 
+.fa-camera-retro, 
+.fa-edit {
+    color:rgb(7, 148, 148);
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.btn-primary {
+    background-color: rgb(7, 148, 148);
+    border: 1px solid rgb(23, 105, 119);
+    margin: 1rem;
+}
+
+.btn-primary:hover {
+    background-color:  rgb(23, 105, 119);
+    border: 1px solid rgb(7, 148, 148);
+}
+
+/*--- Portfolio ---*/
+.btn .btn-outline-secondary {
+}
+
+/*--- Social Links ---*/
+.social {
+    font-size: 3rem;
+    padding: 2rem;
+}
+.fa-facebook {
+    color: #3b5998;
+    padding-left: 2rem;
+}
+.fa-instagram {
+    color: #517fa8;
+    padding-left: 2rem;
+}
+.fa-linkedin {
+    color: #0e76a8;
+    padding-left: 2rem;
+}
+.fa-blog {
+    color: #00aced;
+    padding-left: 2rem;
+}
+
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-linkedin:hover,
+.fa-blog:hover {
+    color: #d5d5d5;
+}
+
+.details {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+
+footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+ .details .hr {
+     border-top: 1pm solid #d5d5d5;
+     width: 75%;
+     margin-top: .8rem;
+     margin-bottom: 1rem;
+ }
+
+/*----Media Queries ---*/
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 576px) {
+
+}
+
